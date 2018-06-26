@@ -37,7 +37,7 @@ public class Login {
 	}
 	
 	@Given("User navigates to globalpoem websites")
-	public void user_navigates_to_stackoverflow_websites() {
+	public void user_navigates_to_globalpoem_websites() {
 		driver.get("http://globalpoem.16mb.com");
 	}
 
