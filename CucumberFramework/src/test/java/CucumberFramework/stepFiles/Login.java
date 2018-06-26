@@ -42,7 +42,7 @@ public class Login {
 	}
 
 	@And("User clicks on the Content Management button on homepage")
-	public void user_clicks_on_the_login_button_on_homepage() throws InterruptedException {
+	public void user_clicks_on_the_Content_Management_button_on_homepage() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[text()='Content Management']")).click();
 	}
