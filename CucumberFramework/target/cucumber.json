@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18824752684,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login into account with correct details",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 4018583801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5366832186,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to globalpoem websites",
+            "match": {
+              "location": "Login.user_navigates_to_stackoverflow_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5565797875,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the Content Management button on homepage",
+            "match": {
+              "location": "Login.user_clicks_on_the_login_button_on_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2240176331,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters an invalid username",
+            "match": {
+              "location": "Login.user_enters_an_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179265698,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters an invalid password",
+            "match": {
+              "location": "Login.user_enters_an_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761496669,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "Login.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3102383754,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be taken to the unsuccessful login page",
+            "match": {
+              "location": "Login.user_should_be_taken_to_the_unsuccessful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "\tExisting globalpoem user should not be able to login into account using incorrect credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "src/test/java/CucumberFramework/FeatureFiles/login.feature",
+    "tags": []
+  }
+]
