@@ -39,7 +39,7 @@ public class Login {
 	
 	@Given("User navigates to globalpoem websites")
 	public void user_navigates_to_globalpoem_websites() {
-		driver.get("http://globalpoem.16mb.com");
+		driver.get("http://http://globalpoem.delightservices.com.au");
 	}
 
 	@And("User clicks on the Content Management button on homepage")
